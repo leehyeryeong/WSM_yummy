@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: solid 1px red;
+}
+.container {
+    width: 100%;
+    height: 1854px;
+}
+header {
+    margin: 0;
+    background: #FFF795;
+}
+.logo {
+    width: 150px;
+    height: 50px;
+    margin-left: 25px;
+}
+.toggle {
+    display: none;
+}
+.menu {
+    float: right;
+    margin: 15px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+a:hover {
+    color: #FFDDE5;
+}
+.spring {
+    display: block;
+    margin: 100px auto;
+    max-width: 100%;
+}
+.left-panel {
+    float: left;
+    width: 50%;
+    margin-top: 100px;
+}
+.right-panel {
+    float: right;
+    width: 50%;
+    margin-top: 100px;
+}
+.today-fruit {
+    margin: 50px;
+}
+.today-fruit>p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background: #FFF795;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.strawberry {
+    max-width: 50%;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    float: left;
+}
+.fruit-commend>p {
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background: #FFDDE5;
+    border-bottom-right-radius: 10px;
+}
+.today-receipe {
+    margin: 50px;
+}
+.today-receipe>p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    background: #FFF795;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.strawberry-canape {
+    max-width: 50%;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    float: left;
+}
+.receipe>p {
+    width: 100%;
+    height: 185px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    background: #FFDDE5;
+}
+footer {
+    width: 100%;
+    height: 54px;
+    background: #FFF795;
+}
+@media screen and (max-width: 600px) {
+    .toggle {
+        display: block;
+        cursor: pointer;
+        float: right;
+        margin-top: 20px;
+    }
+    .logo {
+        margin: 20px;
+    }
+    .menu {
+        flex-direction: column;
+        /* align-items: center; */
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 44px; /* nav 높이 */
+        /* width: 100%; */
+        background-color: #2f2f2f;
+        height: 0; /* overflow: hidden과 함께 메뉴 안 보이게 하자 */
+        overflow: hidden;
+        transition: 0.3s;
+    }
+    .menu a {
+        padding: 0.5rem 0;
+        border-bottom: 1px solid #fff;
+        text-align: center;
+    }
+    .show-menu {
+        height: 164px;
+    }
+}
