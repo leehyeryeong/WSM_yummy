@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans KR' sans-serif;
     outline: solid 1px red;
 }
 .container {
@@ -36,13 +37,14 @@ a:hover {
 }
 .fall {
     width: 100%;
-    height: 100px;
+    height: 130px;
 }
 .banner>h1 {
     position: absolute;
     top: 30%;
     left: 20px;
     font-weight: bold;
+    color: #fff;
 }
 .season-fruit {
     background: #FFDDE5;
