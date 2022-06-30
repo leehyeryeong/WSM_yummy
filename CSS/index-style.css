@@ -9,23 +9,27 @@
     max-width: 100%;
     height: 1854px;
 }
-nav {
-    width: 100%;
-    margin: 0;
+header {
     background: #FFF795;
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .logo {
     width: 150px;
     height: 50px;
-    margin-left: 25px;
+    margin-left: 10px;
 }
 .toggle {
     display: none;
 }
-.menu {
-    float: right;
-    margin: 15px;
-    font-size: 20px;
+.menu li {
+    list-style: none;
+}
+.item-list {
+    display: flex;
+    column-gap: 0.75rem;
 }
 a {
     text-decoration: none;
@@ -35,51 +39,24 @@ a {
 a:hover {
     color: #FFDDE5;
 }
-.spring {
-    max-width: 100%;
-    margin-top: 100px
+.today-fruit,
+.fruit-receipe {
+    border-radius: 1rem;
+    flex: 1 0 240px;
+    width: 600px;
+    margin: 100px 72px 0 72px;
+    float: left;
 }
-.panel {
-    margin-top: 100px;
-}
-.panel .title {
-    margin: 0;
+.today-fruit h4,
+.fruit-receipe h4 {
+    background: #FFF795;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
-    background: #FFF795;
 }
-.left-panel {
-    float: left;
-    width: 50%;
-}
-.right-panel {
-    float: right;
-    width: 50%;
-}
-.today-fruit {
-    margin-right: 15px;
-}
-.strawberry {
-    max-width: 50%;
-}
-.fruit-commend {
-    width: 50%;
-    height: auto;
-    float: right;
-    background-color: #FFDDE5;
-}
+.strawberry,
 .strawberry-canape {
     max-width: 50%;
 }
-.receipe {
-    width: 50%;
-    height: auto;
-    float: right;
-    background-color: #FFDDE5;
-}
-footer {
-    width: 100%;
-    height: 54px;
-    background: #FFF795;
+.card-menu {
+    background: #FFDDE5;
 }
