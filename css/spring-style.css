@@ -42,21 +42,25 @@ a:hover {
 }
 .banner>h1 {
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 20px;
     font-weight: bold;
     color: #fff;
 }
 .middle {
     background: #FFDDE5;
+    height: 1000px;
 }
 .season-fruit {
     display: inline;
 }
+.season-fruit h2,
 .season-fruit h3 {
-    margin-left: 20px;
+    margin: 20px 0 0 20px;
 }
-
+.season-fruit a {
+    margin: 0;
+}
 .strawberry, .hanra, .maesil {
     width: 80%;
 }
@@ -65,15 +69,12 @@ a:hover {
     display: inline-flex;
     word-break:break-all;
 }
-
 .strawberry-img, .hanra-img, .maesil-img {
     width: 20%;
     height: 100%;
     text-align: center;
-}
-.a {
-    margin : 0;
-    padding: 0;
+    border-radius: 10px;
+    margin-left: 20px;
 }
 .textstr, .texthr, .textms {
     margin : 0 3%;
@@ -81,5 +82,15 @@ a:hover {
     display: inline;
     font-size: 20px;
     background-color: #fff;
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 10px;
+}
+footer {
+    background: #FFF795;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
 } 
+@media screen and (max-width: 768px) {
+
+}
