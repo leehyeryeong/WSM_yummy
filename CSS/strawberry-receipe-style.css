@@ -9,6 +9,9 @@
     max-width: 100%;
     height: 1854px;
 }
+.middle {
+    background: #FFDDE5;
+}
 nav {
     width: 100%;
     margin: 0;
@@ -37,7 +40,7 @@ a:hover {
 }
 .strawberry-receipe {
     background: #FFDDE5;
-    margin: 20px 0 20px 0;
+    margin-top: 30px;
 }
 .strawberry-receipe h3 {
     font-weight: normal;
@@ -50,12 +53,12 @@ a:hover {
 .strawberry-syrup,
 .strawberry-mozzi,
 .strawberry-sandwich {
-    background: #fff;
     width: 331px;
     height: 395px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 20px 30px 0 60px;
     padding: 40px;
+    float: left;
 }
 .strawberry-canape-img,
 .strawberry-jam-img,
