@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap');
+* {
+    font-family: 'Noto Sans KR' sans-serif;
+}
+html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+.container {
+    max-width: 100%;
+    height: 1854px;
+    padding: 0;
+}
+header {
+    background: #FFF795;
+    width: 100%;
+    margin: 0;
+}
+.logo {
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+}
+.toggle {
+    display: none;
+}
+.menu {
+    float: right;
+    margin: 15px;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+a:hover {
+    color: #FFDDE5;
+}
+.slideshow {
+    margin-top: 70px;
+}
+.today-fruit,
+.fruit-receipe {
+    flex: 1 0 240px;
+    width: 600px;
+    margin: 100px 72px 0 72px;
+    float: left;
+}
+.today-fruit h4,
+.fruit-receipe h4 {
+    background: #FFF795;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+.strawberry,
+.strawberry-canape {
+    max-width: 50%;
+    height: 200px;
+    border-radius: 0 0 0 10px;
+}
+.card-menu {
+    background: #FFDDE5;
+    float: right;
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+    border-radius: 0 0 10px 0;
+}
+footer {
+    background: #FFF795;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+} 
