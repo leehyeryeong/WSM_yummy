@@ -16,7 +16,7 @@ header {
 .logo {
     width: 150px;
     height: 50px;
-    margin-left: 30px;
+    margin-left: 10px;
 }
 .menu {
     float: right;
@@ -27,6 +27,8 @@ a {
     text-decoration: none;
     color: black;
     margin: 20px;
+    display: inline-block;
+    ;
 }
 a:hover {
     color: #FFDDE5;
@@ -36,8 +38,10 @@ a:hover {
     margin: 30px;
 }
 .spring {
-    width: 100%;
-    height: 130px;
+    width : auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
 }
 .banner>h1 {
     position: absolute;
@@ -49,23 +53,34 @@ a:hover {
 .middle {
     background: #FFDDE5;
 }
-.season-fruit h2,
-p,
+.season-fruit {
+    display: inline;
+}
 .season-fruit h3 {
     margin-left: 20px;
 }
-.strawberry-img,
-.hanrabong-img,
-.maesil-img {
-    width: 20%;
-    height: 230px;
-    margin: 15px;
-}
-.strawberry-comment,
-.hanrabong-comment,
-.maesil-comment {
+
+.strawberry, .hanra, .maesil {
     width: 80%;
-    height: auto;
-    background: #fff;
-    float: right;
+}
+.strawberry-comment, .hanra-comment, .maesil-comment {
+    width: 100%;
+    display: inline-flex;
+    word-break:break-all;
+}
+
+.strawberry-img, .hanra-img, .maesil-img {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+}
+.a {
+    margin : 0;
+    padding: 0;
+}
+.textstr, .texthr, .textms {
+    margin : 0 3%;
+    width: 100%;
+    display: inline;
+    font-size: 20px;
 }
