@@ -21,43 +21,61 @@
       </div>
     </header>
     <div class="middle">
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="img/spring.jpg" alt="First slide">
+      <div class="slideshow">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/summer.jpg" alt="Second slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/spring.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/summer.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/fall.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/winter.jpg" class="d-block w-100" alt="...">
+            </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="img/fall.jpg" alt="Third slide">
-          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
+      <main id="mainCardID">
+        <article class="today-fruit">
+          <h4 class="card-title">오늘의 제철 과일</h4>
+          <img class="strawberry" src="img/strawberry.jpg">
+          <div class="card-menu">
+            <p>
+              5월달 제철 과일 딸기를 추천드립니다<br/>
+              비타민 C가 가득해 건강에 좋습니다
+            </p>
+          </div>
+        </article>
+        <article class="fruit-receipe">
+          <h4 class="card-title">이런 요리는 어떠세요?</h4>
+          <img class="strawberry-canape" src="img/strawberry_canape.jpg">
+          <div class="card-menu">
+            <p>
+              크래커 위에 크림치즈<br/>
+              크림치즈 위에 딸기<br/>
+              딸기 카나페 완성
+            </p>
+          </div>
+        </article>
+      </main>
     </div>
-
-    <main id="mainCardID">
-      <article class="today-fruit">
-        <h4 class="card-title">오늘의 제철 과일</h4>
-        <div class="comment">
-          <figure class="card-img"><img class="strawberry" src="img/strawberry.jpg"></figure>
-          <p class="card-menu">
-            5월달 제철 과일 딸기를 추천드립니다<br/>
-            비타민 C가 가득해 건강에 좋습니다
-          </p>
-        </div>
-      </article>
-      <article class="fruit-receipe">
-        <h4 class="card-title">이런 요리는 어떠세요?</h4>
-        <figure class="card-img"><img class="strawberry-canape" src="img/strawberry_canape.jpg"></figure>
-        <p class="card-menu">
-          크래커 위에 크림치즈<br/>
-          크림치즈 위에 딸기<br/>
-          딸기 카나페 완성
-        </p>
-      </article>
-    </main>
-  </div>
   <footer>
       <div class="left">
         <p>Creaters: 이혜령, 안소영<br/>
