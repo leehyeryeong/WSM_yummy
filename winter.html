@@ -10,14 +10,19 @@
 <body>
     <div class="container">
         <header>
-            <img class="logo" src="img/logo.png">
-            <div class="menu">
-                <a href="#" onclick="location.href='spring.html'">봄</a>
-                <a href="#" onclick="location.href='summer.html'">여름</a>
-                <a href="#" onclick="location.href='fall.html'">가을</a>
-                <a href="#" onclick="location.href='winter.html'">겨울</a>
-            </div>
-        </header>
+            <nav>
+              <div class="toggle" id="toggleID">
+                <i class='bx bx-menu'></i>
+              </div>
+              <a href="index.html"><img class="logo" src="img/logo.png"></a>
+              <div class="menu" id="menuID">
+                <a href="#" onclick="location.href='spring.html'" class="item">봄</a>
+                <a href="#" onclick="location.href='summer.html'" class="item">여름</a>
+                <a href="#" onclick="location.href='fall.html'" class="item">가을</a>
+                <a href="#" onclick="location.href='winter.html'" class="item">겨울</a>
+              </div>
+            </nav>
+          </header>
         <div class="banner">
             <img class="winter" src="img/winter-banner.jpg">
             <h1>겨울</h1>
@@ -40,7 +45,7 @@
                     </div>
                 </div>
                 <div class="strawberry">
-                    <h3>딸기</h3>
+                    <a href="strawberry-receipe.html"><h3>딸기</h3></a>
                     <div class="strawberry-comment">
                         <img class="strawberry-img" src="img/strawberry.jpg">
                         <div class = "textstr">1~5월이 제철인 딸기<br/>비타민 C가 가득!!!<br/>아주 짱입니다</div>
@@ -51,14 +56,11 @@
     </div>
     <footer>
         <div class="left">
-            
-        </div>
-        <div class="right">
-            
-        </div>
-        <div class="last">
-            
+          <p>Creaters: 이혜령, 안소영<br/>
+          address: w2108@e-mirim.hs.kr, w2105@e-mirim.hs.kr
+          </p>
         </div>
     </footer>
+    <script src="JS/main.js"></script>
 </body>
 </html>

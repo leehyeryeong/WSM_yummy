@@ -10,14 +10,19 @@
 <body>
     <div class="container">
         <header>
-            <a href="#" onclick="location.href='index.html'"><img class="logo" src="img/logo.png"></a>
-            <div class="menu">
-                <a href="#" onclick="location.href='spring.html'">봄</a>
-                <a href="#" onclick="location.href='summer.html'">여름</a>
-                <a href="#" onclick="location.href='fall.html'">가을</a>
-                <a href="#" onclick="location.href='winter.html'">겨울</a>
-            </div>
-        </header>
+            <nav>
+              <div class="toggle" id="toggleID">
+                <i class='bx bx-menu'></i>
+              </div>
+              <a href="index.html"><img class="logo" src="img/logo.png"></a>
+              <div class="menu" id="menuID">
+                <a href="#" onclick="location.href='spring.html'" class="item">봄</a>
+                <a href="#" onclick="location.href='summer.html'" class="item">여름</a>
+                <a href="#" onclick="location.href='fall.html'" class="item">가을</a>
+                <a href="#" onclick="location.href='winter.html'" class="item">겨울</a>
+              </div>
+            </nav>
+          </header>
         <div class="banner">
             <img class="spring" src="img/spring-banner.jpg">
             <h1>봄</h1>
@@ -33,25 +38,29 @@
                     </div>
                 </div>
                 <div clsas="hanra">
-                    <a href="strawberry-receipe.html"><h3>한라봉</h3></a>
+                    <h3>한라봉</h3>
                     <div class="hanra-comment">
                         <img class="hanra-img" src="img/hanrabong.jpg">
-                        <div class="texthr">12~3월이 제철인 한라봉 옐로우 푸드의 대표적인 감귤류 과일입니다
-                            카르티노이드 성분이 들어있어 뛰어난 항산화제입니다</div>
+                        <div class="texthr">12~3월이 제철인 한라봉 옐로우 푸드의 대표적인 감귤류 과일입니다<br/>카르티노이드 성분이 들어있어 뛰어난 항산화제입니다</div>
                     </div>
                 </div>
                 <div clsas="maesil">
-                    <a href="strawberry-receipe.html"><h3>매실</h3></a>
-                     <div class="maesil-comment">
-                         <img class="maesil-img" src="img/maesil.jpg">
-                         <div class="textms">5~6월이 제철인 매실 새콤달콤한 맛이 짱 피로회복에 절대강자입니다</div>
-                     </div>
+                    <h3>매실</h3>
+                    <div class="maesil-comment">
+                        <img class="maesil-img" src="img/maesil.jpg">
+                        <div class="textms">5~6월이 제철인 매실<br/>새콤달콤한 맛이 짱<br/>피로회복에 절대강자입니다</div>
+                    </div>
                  </div>
             </div>
         </div>
     </div>
     <footer>
-
+        <div class="left">
+          <p>Creaters: 이혜령, 안소영<br/>
+          address: w2108@e-mirim.hs.kr, w2105@e-mirim.hs.kr
+          </p>
+        </div>
     </footer>
+    <script src="JS/main.js"></script>
 </body>
 </html>

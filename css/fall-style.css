@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans KR' sans-serif;
-    outline: solid 1px red;
 }
 .container {
     width: 100%;
@@ -17,6 +16,12 @@ header {
     width: 150px;
     height: 50px;
     margin-left: 10px;
+}
+.toggle {
+    display: none;
+    float: right;
+    margin: 5px 10px 10px 0;
+    font-size: 30px;
 }
 .menu {
     float: right;
@@ -41,32 +46,78 @@ a:hover {
 }
 .banner>h1 {
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 20px;
     font-weight: bold;
     color: #fff;
 }
-.season-fruit {
+.middle {
     background: #FFDDE5;
-    width: 100%;
-    height: 100%;
+    height: 1000px;
 }
-.season-fruit>h2 {
-    color: #fff;
+.season-fruit {
+    display: inline;
+}
+.season-fruit h2,
+.season-fruit h3 {
+    margin: 20px 0 0 20px;
+}
+.season-fruit a {
+    margin: 0;
+}
+.apple, .fig, .progranate {
+    width: 80%;
+}
+.apple-comment, .fig-comment, .pomegranate-comment {
+    width: 100%;
+    display: inline-flex;
+    word-break:break-all;
+}
+.apple-img, .fig-img, .pomegranate-img {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    border-radius: 5px;
     margin-left: 20px;
 }
-.apple-img {
-    width: 20%;
-    height: 230px;
-    margin: 20px;
+.textap, .textfig, .textpm {
+    margin : 0 3%;
+    width: 100%;
+    display: inline;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 5px;
 }
-.fig-img {
-    width: 20%;
-    height: 230px;
-    margin: 20px;
-}
-.pomegranate-img {
-    width: 20%;
-    height: 230px;
-    margin: 20px;
+footer {
+    background: #FFF795;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
 } 
+@media screen and (max-width: 992px) {
+    .toggle {
+        display: block;
+        cursor: pointer;
+    }
+    .menu {
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50px;
+        /* width: 100%; */
+        background-color: #faeac8;
+        height: 0;
+        overflow: hidden;
+    }
+    .item {
+        justify-content: space-around;
+        text-align: center;
+    }
+    .show-menu {
+        width: 100%;
+        height: 200px;
+        margin: 0;
+    }
+}

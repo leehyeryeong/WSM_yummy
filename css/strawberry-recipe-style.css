@@ -17,6 +17,7 @@ nav {
     width: 150px;
     height: 50px;
     margin-left: 25px;
+    margin: 0;
 }
 .toggle {
     display: none;
@@ -43,6 +44,14 @@ a:hover {
     text-align: center;
     margin: 40px;
 }
+.polaroid {
+    background: #fff;
+    border-width: 6px 6px 20px 6px;
+    box-shadow: 1px 1px 5px #333;
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+}
 .strawberry-canape,
 .strawberry-jam,
 .strawberry-smoothie,
@@ -50,11 +59,7 @@ a:hover {
 .strawberry-mozzi,
 .strawberry-sandwich {
     float: left;
-    background: #fff;
-    width: 33%;
-    height: 395px;
-    border-radius: 10px;
-    margin: 10px;
+    margin: 20px 10px 10px 30px;
     padding: 40px;
 }
 .strawberry-canape-img,
@@ -67,4 +72,4 @@ a:hover {
     height: 80%;
     display: block;
     margin: auto;
-} 
+}

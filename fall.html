@@ -10,14 +10,19 @@
 <body>
     <div class="container">
         <header>
-            <img class="logo" src="img/logo.png">
-            <div class="menu">
-                <a href="#" onclick="location.href='spring.html'">봄</a>
-                <a href="#" onclick="location.href='summer.html'">여름</a>
-                <a href="#" onclick="location.href='fall.html'">가을</a>
-                <a href="#" onclick="location.href='winter.html'">겨울</a>
-            </div>
-        </header>
+            <nav>
+              <div class="toggle" id="toggleID">
+                <i class='bx bx-menu'></i>
+              </div>
+              <a href="index.html"><img class="logo" src="img/logo.png"></a>
+              <div class="menu" id="menuID">
+                <a href="#" onclick="location.href='spring.html'" class="item">봄</a>
+                <a href="#" onclick="location.href='summer.html'" class="item">여름</a>
+                <a href="#" onclick="location.href='fall.html'" class="item">가을</a>
+                <a href="#" onclick="location.href='winter.html'" class="item">겨울</a>
+              </div>
+            </nav>
+          </header>
         <div class="banner">
             <img class="fall" src="img/fall-banner.jpg">
             <h1>가을</h1>
@@ -25,40 +30,37 @@
         <div class="middle">
             <div class="season-fruit">
                 <h2>가을 제철 과일</h2>
-                <div class="apple">
-                    <img class="apple-img" src="img/apple.jpg">
+                <div clsas="apple">
+                    <h3>사과</h3>
                     <div class="apple-comment">
-                        <h3>사과</h3>
-                        <p>과일 자체로도 달콤한 인기만점 사과<br/>항산화작용이 뛰어나며 비타민 C가 풍부합니다.</p>
+                        <img class="apple-img" src="img/apple.jpg">
+                        <div class="textap">과일 자체로도 달콤한 인기만점 사과<br/>항산화작용이 뛰어나며 비타민 C가 풍부합니다.</div>
                     </div>
                 </div>
-                <div class="fig">
-                    <img class="fig-img" src="img/fig.jpg">
+                <div clsas="fig">
+                    <h3>무화과</h3>
                     <div class="fig-comment">
-                        <h3>무화과</h3>
-                        <p>8~11월이 제철인 무화과<br/>단백질 분해 효소가 많이 들어있어 소화를 도와줍니다.</p>
+                        <img class="fig-img" src="img/fig.jpg">
+                        <div class="textfig">8~11월이 제철인 무화과<br/>단백질 분해 효소가 많이 들어있어 소화를 도와줍니다.</div>
                     </div>
                 </div>
-                <div class="pomegranate">
-                    <img class="pomegranate-img" src="img/pomegranate.jpg">
+                <div clsas="pomegranate">
+                    <h3>매실</h3>
                     <div class="pomegranate-comment">
-                        <h3>석류</h3>
-                        <p>붉은 빛깔이 참 고운 석류<br/>여성호르몬 유사 성분이 풍부해 여성의 과일이라 불립니다.</p>
+                         <img class="pomegranate-img" src="img/pomegranate.jpg">
+                         <div class="textpm">붉은 빛깔이 참 고운 석류<br/>여성호르몬 유사 성분이 풍부해 여성의 과일이라 불립니다.</div>
                     </div>
-                </div>
+                 </div>
             </div>
         </div>
     </div>
     <footer>
         <div class="left">
-            
-        </div>
-        <div class="right">
-            
-        </div>
-        <div class="last">
-            
+          <p>Creaters: 이혜령, 안소영<br/>
+          address: w2108@e-mirim.hs.kr, w2105@e-mirim.hs.kr
+          </p>
         </div>
     </footer>
+    <script src="JS/main.js"></script>
 </body>
 </html>
