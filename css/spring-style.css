@@ -79,7 +79,11 @@ a:hover {
     width: 20%;
     height: 100%;
     text-align: center;
+<<<<<<< HEAD
     border-radius: 5px;
+=======
+    border-radius: 10px;
+>>>>>>> 7b8f62eacaafb1a0c21838942031d7317a2ac717
     margin-left: 20px;
 }
 .textstr, .texthr, .textms {
@@ -88,7 +92,11 @@ a:hover {
     display: inline;
     font-size: 20px;
     background-color: #fff;
+<<<<<<< HEAD
     border-radius: 5px;
+=======
+    border-radius: 10px;
+>>>>>>> 7b8f62eacaafb1a0c21838942031d7317a2ac717
 }
 footer {
     background: #FFF795;
@@ -97,6 +105,7 @@ footer {
     position: fixed;
     bottom: 0;
 } 
+<<<<<<< HEAD
 @media screen and (max-width: 992px) {
     .toggle {
         display: block;
@@ -123,3 +132,8 @@ footer {
         margin: 0;
     }
 }
+=======
+@media screen and (max-width: 768px) {
+
+}
+>>>>>>> 7b8f62eacaafb1a0c21838942031d7317a2ac717
