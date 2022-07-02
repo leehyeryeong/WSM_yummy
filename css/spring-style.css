@@ -73,18 +73,13 @@ a:hover {
 .strawberry-comment, .hanra-comment, .maesil-comment {
     width: 100%;
     display: inline-flex;
-    word-break:break-all;
+    word-break: break-all;
 }
 .strawberry-img, .hanra-img, .maesil-img {
     width: 20%;
     height: 100%;
-    text-align: center;
-<<<<<<< HEAD
-    border-radius: 5px;
-=======
-    border-radius: 10px;
->>>>>>> 7b8f62eacaafb1a0c21838942031d7317a2ac717
     margin-left: 20px;
+    border-radius: 5px;
 }
 .textstr, .texthr, .textms {
     margin : 0 3%;
@@ -92,11 +87,7 @@ a:hover {
     display: inline;
     font-size: 20px;
     background-color: #fff;
-<<<<<<< HEAD
     border-radius: 5px;
-=======
-    border-radius: 10px;
->>>>>>> 7b8f62eacaafb1a0c21838942031d7317a2ac717
 }
 footer {
     background: #FFF795;
@@ -104,36 +95,4 @@ footer {
     height: 50px;
     position: fixed;
     bottom: 0;
-} 
-<<<<<<< HEAD
-@media screen and (max-width: 992px) {
-    .toggle {
-        display: block;
-        cursor: pointer;
-    }
-    .menu {
-        flex-direction: column;
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 50px;
-        /* width: 100%; */
-        background-color: #faeac8;
-        height: 0;
-        overflow: hidden;
-    }
-    .item {
-        justify-content: space-around;
-        text-align: center;
-    }
-    .show-menu {
-        width: 100%;
-        height: 200px;
-        margin: 0;
-    }
 }
-=======
-@media screen and (max-width: 768px) {
-
-}
->>>>>>> 7b8f62eacaafb1a0c21838942031d7317a2ac717
