@@ -35,6 +35,10 @@ a {
 a:hover {
     color: #FFDDE5;
 }
+.middle {
+    height: 1000px;
+    background: #FFDDE5;
+}
 .strawberry-receipe {
     background: #FFDDE5;
     margin: 20px 0 20px 0;
