@@ -6,6 +6,8 @@ html {
     width: 100%;
     height: 100%;
     padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 .container {
     max-width: 100%;
@@ -45,12 +47,23 @@ a:hover {
 .slideshow {
     margin-top: 70px;
 }
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 40px;
+    margin: 44px 2rem;
+}
+
 .today-fruit,
 .fruit-receipe {
-    flex: 1 0 240px;
-    width: 600px;
-    margin: 100px 72px 0 72px;
+    flex: 1 0 400px;
+    /* width: 600px; */
+    max-width: 500px;
+    margin: 20px auto;
     float: left;
+    justify-content: center;
 }
 .today-fruit h4,
 .fruit-receipe h4 {
