@@ -12,14 +12,19 @@
 <body>
     <div class="container">
         <nav>
-            <a href="index.html"><img class="logo" src="img/logo.png"></a>
-            <div class="menu">
-                <a href="#" onclick="location.href='spring.html'">봄</a>
-                <a href="#" onclick="location.href='summer.html'">여름</a>
-                <a href="#" onclick="location.href='fall.html'">가을</a>
-                <a href="#" onclick="location.href='winter.html'">겨울</a>
+            <div class="toggle" id="toggleID">
+              <i class='bx bx-menu'></i>
             </div>
-        </nav>
+            <img class="logo" src="img/logo.png">
+            <div class="menu" id="menuID">
+              <ul class = "nav-list">
+                  <li><a href="#" onclick="location.href='spring.html'" class="item">봄</a></li>
+                  <li><a href="#" onclick="location.href='summer.html'" class="item">여름</a></li>
+                  <li><a href="#" onclick="location.href='fall.html'" class="item">가을</a></li>
+                  <li><a href="#" onclick="location.href='winter.html'" class="item">겨울</a></li>
+              </ul>
+            </div>
+          </nav>
         <div class="middle">
             <div class="strawberry-receipe">
                 <h2>요리 레시피</h2>
@@ -50,5 +55,14 @@
             </div>
         </div>
     </div>
+    <footer>
+        <div class="left">
+          <p>Creaters: 이혜령, 안소영<br/>
+          address: w2108@e-mirim.hs.kr, w2105@e-mirim.hs.kr
+          </p>
+        </div>
+    </footer>
+  </div>
+  <script src="JS/main.js"></script>
 </body>
 </html>
