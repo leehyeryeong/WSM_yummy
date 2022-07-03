@@ -29,3 +29,11 @@
 
 ----------------------------------------------------------
 ## 시나리오
+![image](https://user-images.githubusercontent.com/84839619/177015377-6d0930cf-a7da-452a-bb09-a76e3f820b60.png)
+![image](https://user-images.githubusercontent.com/84839619/177015383-6799506b-95c6-4833-b5ad-e614fb46404d.png)
+메인 페이지에서는 그 날의 추천 제철 과일과 그 과일을 이용한 추천 레시피를 볼 수 있습니다.
+
+![image](https://user-images.githubusercontent.com/84839619/177015404-c372c68f-71a6-44df-900c-ff6760784c18.png)
+![image](https://user-images.githubusercontent.com/84839619/177015413-30277e1a-da6d-41f5-82ab-fb4f101dfb13.png)
+봄 여름 가을 겨울 별로 페이지가 있으며, 그 페이지에 들어가면 계절에 맞는 제철 과일을 알려줍니다.
+
