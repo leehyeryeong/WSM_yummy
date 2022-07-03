@@ -19,6 +19,9 @@ nav {
     width: 100%;
     height: 54px;
     margin: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
 }
 .logo {
     width: 150px;
@@ -33,9 +36,14 @@ nav {
 }
 .menu {
     float: right;
-    margin: 15px;
+    margin: 0;
     font-size: 20px;
+    margin : 15px 10px;
+    /* margin : 0 0 0 0 = 상 우 하 좌
+       margin : 0 0 = 상하 좌우
+       margin : 0 4면 전체*/
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -44,26 +52,37 @@ a {
 a:hover {
     color: #FFDDE5;
 }
+
+li {
+    list-style: none;
+    float: left;
+}
+.nav-list {
+    display: flex;
+    column-gap: 0.75rem;
+}
+
 @media screen and (max-width: 992px) {
     .toggle {
         display: block;
         cursor: pointer;
     }
     .menu {
-        flex-direction: column;
-        position: absolute;
         left: 0;
         right: 0;
-        top: 50px;
         /* width: 100%; */
-        background-color: #fffcd9;
+        background-color: #fffac1;
         height: 0;
         overflow: hidden;
+        opacity: 0.92;
+
     }
-    .item {
-        justify-content: space-around;
-        text-align: center;
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
     }
+
     .show-menu {
         width: 100%;
         height: 200px;
